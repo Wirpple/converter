@@ -1,0 +1,13 @@
+# Ignore upload and output directories
+/data/uploads/*
+/data/output/*
+
+# Ignore log files
+/logs/*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Composer vendor directory
+/vendor

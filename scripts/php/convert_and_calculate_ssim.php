@@ -3,7 +3,7 @@
 function calculate_ssim($image1, $image2)
 {
     $venv_python = escapeshellcmd("/Users/mac/PhpstormProjects/testScript/venv/bin/python3");
-    $ssim_script = escapeshellcmd("/Users/mac/PhpstormProjects/testScript/src/ssim_calculator.py");
+    $ssim_script = escapeshellcmd("/Users/mac/PhpstormProjects/testScript/scripts/python/ssim_calculator.py");
     $command = "$venv_python $ssim_script " . escapeshellarg($image1) . " " . escapeshellarg($image2);
     $output = shell_exec($command . " 2>&1");
     if ($output === null) {
