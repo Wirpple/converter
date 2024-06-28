@@ -22,9 +22,6 @@ git clone https://github.com/Wirpple/converter.git
  ```bash
 composer install
 ```
-3. Установите необходимые библиотеки Python:
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install scikit-image
-```
+3. Установить и собрать утилиту ssimulacra2:
+Закидываем Dockerfile с этого проекта в корень директории ssimulacra2
+
