@@ -1,6 +1,6 @@
 # Ignore upload and output directories
-/data/uploads/*
-/data/output/*
+/input/*
+/output/*
 
 # Ignore log files
 /logs/*
